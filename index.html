@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The Royal Mehfil is a premium Pakistani fine-dining café celebrating traditional flavours with contemporary elegance."
+    />
+    <title>The Royal Mehfil | Traditional Pakistani Fine Dining</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="khana.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header" id="top">
+        <nav class="navbar container" aria-label="Main navigation">
+          <a href="#home" class="brand" aria-label="The Royal Mehfil home">
+            <span class="brand-mark">RM</span>
+            <div>
+              <strong>THE ROYAL MEHFIL</strong>
+              <small>Traditional Pakistani Fine Dining</small>
+            </div>
+          </a>
+
+          <button
+            class="nav-toggle"
+            type="button"
+            aria-label="Open menu"
+            aria-expanded="false"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <div class="nav-menu">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#story" class="nav-link">Our Story</a>
+            <a href="#menu" class="nav-link">Menu</a>
+            <a href="#specialties" class="nav-link">Specialties</a>
+            <a href="#gallery" class="nav-link">Gallery</a>
+            <a href="#contact" class="nav-link">Contact</a>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" id="home">
+          <div class="hero-overlay"></div>
+          <div class="container hero-content reveal">
+            <p class="eyebrow">Royal Hospitality • Since 2012</p>
+            <h1>THE ROYAL MEHFIL</h1>
+            <p class="tagline">Traditional Pakistani Fine Dining</p>
+            <p class="hero-text">
+              Where timeless Pakistani flavours meet contemporary elegance.
+            </p>
+            <div class="hero-actions">
+              <a href="#menu" class="btn btn-primary">Explore Menu</a>
+              <a href="#reservation" class="btn btn-secondary">Reserve a Table</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="story section-spacing" id="story">
+          <div class="container story-grid">
+            <div class="story-copy reveal">
+              <p class="section-label">Our Story</p>
+              <h2>Pakistani heritage, reimagined with modern luxury.</h2>
+              <p>
+                At The Royal Mehfil, we celebrate the soulful culinary heritage of
+                Pakistan, bringing together cherished family recipes, fragrant
+                spices, and the warmth of traditional hospitality in a refined
+                dining experience.
+              </p>
+              <p>
+                From the first smoky sizzle of the tandoor to the richness of a
+                slow-braised karahi, every dish is inspired by generations of
+                cooks who perfected the balance of spice, texture and aroma. Our
+                chefs present these timeless classics in a contemporary fine-dining
+                setting with elevated presentation and meticulous craftsmanship.
+              </p>
+              <div class="story-metrics">
+                <div>
+                  <strong>30+</strong>
+                  <span>Signature dishes</span>
+                </div>
+                <div>
+                  <strong>24/7</strong>
+                  <span>Chef-crafted spice blends</span>
+                </div>
+                <div>
+                  <strong>100%</strong>
+                  <span>Traditional recipes, elevated</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="story-visual reveal">
+              <img
+                src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+                alt="Traditional Pakistani dining with rich food presentation and spices"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section class="menu section-spacing" id="menu">
+          <div class="container">
+            <div class="section-heading reveal">
+              <p class="section-label">Signature Menu</p>
+              <h2>Curated flavours, royal character.</h2>
+            </div>
+
+            <div class="menu-tabs reveal" aria-label="Menu categories">
+              <button class="menu-tab is-active" type="button" data-filter="signature-starters">
+                Signature Starters
+              </button>
+              <button class="menu-tab" type="button" data-filter="charcoal-tandoor">
+                Charcoal &amp; Tandoor
+              </button>
+              <button class="menu-tab" type="button" data-filter="royal-meat-house">
+                Royal Meat House
+              </button>
+              <button class="menu-tab" type="button" data-filter="signature-royal-dishes">
+                Signature Royal Dishes
+              </button>
+              <button class="menu-tab" type="button" data-filter="biryani-rice">
+                Biryani &amp; Rice
+              </button>
+              <button class="menu-tab" type="button" data-filter="artisan-tandoor">
+                Artisan Tandoor
+              </button>
+              <button class="menu-tab" type="button" data-filter="signature-sides">
+                Signature Sides
+              </button>
+              <button class="menu-tab" type="button" data-filter="royal-desserts">
+                Royal Desserts
+              </button>
+            </div>
+
+            <div class="menu-panels">
+              <div class="menu-panel is-visible" data-panel="signature-starters">
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80" alt="Grilled lamb chops plated elegantly" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>Zafrani Lamb Chops</h3>
+                      <span>Rs. 2,950</span>
+                    </div>
+                    <p>Charcoal-grilled French-cut lamb chops marinated overnight in saffron, Kashmiri chilli, garlic and aged yogurt, served with smoked mint chutney.</p>
+                  </div>
+                </article>
+
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=80" alt="Elegant premium samosas with luxurious plating" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>Balochi Lamb Shank Samosa</h3>
+                      <span>Rs. 1,850</span>
+                    </div>
+                    <p>Crisp pastry filled with slow-braised lamb shank, caramelized onions and aromatic spices, finished with tamarind reduction.</p>
+                  </div>
+                </article>
+
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?auto=format&fit=crop&w=900&q=80" alt="Pakistani seekh kebab arranged elegantly" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>Truffle Seekh Kabab</h3>
+                      <span>Rs. 2,250</span>
+                    </div>
+                    <p>Hand-minced premium beef blended with black truffle, roasted cumin and green chilli, grilled over charcoal and served with saffron raita.</p>
+                  </div>
+                </article>
+
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=900&q=80" alt="Luxury plated kebabs in a premium restaurant setting" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>Smoked Beef Galouti</h3>
+                      <span>Rs. 2,100</span>
+                    </div>
+                    <p>Silky minced beef kebabs inspired by Lucknow, delicately spiced and smoked over wood, served on miniature sheermal.</p>
+                  </div>
+                </article>
+
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80" alt="Chapli kebab garnished with herbs and pomegranate" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>Mutton Chapli Royale</h3>
+                      <span>Rs. 1,950</span>
+                    </div>
+                    <p>Hand-pressed mutton patty with pomegranate seeds, green chilli and coriander, finished over live charcoal.</p>
+                  </div>
+                </article>
+              </div>
+
+              <div class="menu-panel" data-panel="charcoal-tandoor">
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80" alt="Premium grilled lamb chops with herbs" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>Royal Lamb Chops</h3>
+                      <span>Rs. 3,950</span>
+                    </div>
+                    <p>Tender New Zealand lamb chops marinated in saffron, ginger, garlic and Kashmiri spices, char-grilled and served with mint-yogurt emulsion.</p>
+                  </div>
+                </article>
+
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=900&q=80" alt="Beef boti kebab platter in a fine dining restaurant" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>Mughlai Beef Boti</h3>
+                      <span>Rs. 2,850</span>
+                    </div>
+                    <p>Premium beef tenderloin cubes marinated in cream, cashew, cardamom and white pepper, roasted in the tandoor until beautifully charred.</p>
+                  </div>
+                </article>
+
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1529042410759-befb1204b468?auto=format&fit=crop&w=900&q=80" alt="Grilled Bihari beef served in a premium presentation" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>Bihari Beef Tenderloin</h3>
+                      <span>Rs. 2,950</span>
+                    </div>
+                    <p>Thinly sliced premium beef tenderloin marinated in fried onion, mustard, papaya and aromatic spices, grilled over charcoal.</p>
+                  </div>
+                </article>
+
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=900&q=80" alt="Lamb seekh kebab on a chargrilled platter" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>Lamb Seekh Royale</h3>
+                      <span>Rs. 2,750</span>
+                    </div>
+                    <p>Juicy minced lamb seasoned with roasted spices, saffron and fresh herbs, skewered and cooked over traditional coal fire.</p>
+                  </div>
+                </article>
+
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80" alt="Whole roasted mutton raan served on a luxury platter" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>Mutton Raan</h3>
+                      <span>Rs. 7,500</span>
+                    </div>
+                    <p>Whole leg of young goat, marinated for 24 hours in yogurt, saffron and royal spices before being slow-roasted until exceptionally tender. Serves 3–4.</p>
+                  </div>
+                </article>
+              </div>
+
+              <div class="menu-panel" data-panel="royal-meat-house">
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80" alt="Premium mutton karahi served in a traditional wok" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>Nawabi Mutton Karahi</h3>
+                      <span>Rs. 3,450</span>
+                    </div>
+                    <p>Tender pieces of premium mutton cooked in a traditional karahi with ripe tomatoes, green chillies, ginger and freshly ground spices. Finished with ginger julienne and coriander.</p>
+                  </div>
+                </article>
+
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80" alt="Luxury beef nihari served in a bowl with naan" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>Lahori Beef Nihari</h3>
+                      <span>Rs. 2,650</span>
+                    </div>
+                    <p>Slow-cooked premium beef simmered overnight in a rich aromatic nihari gravy, finished with ginger, green chilli and house-made nihari masala.</p>
+                  </div>
+                </article>
+
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=900&q=80" alt="Kashmiri rogan josh elegantly plated" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>Kashmiri Mutton Rogan Josh</h3>
+                      <span>Rs. 3,250</span>
+                    </div>
+                    <p>Slow-braised mutton in a deep red Kashmiri chilli and saffron gravy, perfumed with fennel, cardamom and cloves.</p>
+                  </div>
+                </article>
+
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80" alt="Creamy mutton korma in a luxury bowl" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>Mughlai Mutton Korma</h3>
+                      <span>Rs. 3,350</span>
+                    </div>
+                    <p>Succulent mutton cooked slowly in a luxurious sauce of yogurt, cashew, browned onion, saffron and cardamom.</p>
+                  </div>
+                </article>
+
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80" alt="Premium haleem served with garnish" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>Smoked Beef Haleem Royale</h3>
+                      <span>Rs. 2,250</span>
+                    </div>
+                    <p>Slow-cooked beef blended with seven grains and lentils, finished with smoked ghee, crispy onions, ginger and fresh coriander.</p>
+                  </div>
+                </article>
+              </div>
+
+              <div class="menu-panel" data-panel="signature-royal-dishes">
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80" alt="Luxury lamb shank plated with mash" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>24-Hour Dum Lamb Shank</h3>
+                      <span>Rs. 4,250</span>
+                    </div>
+                    <p>A whole lamb shank slow-braised for 24 hours with saffron, roasted garlic and aromatic spices, served over silky saffron mash.</p>
+                  </div>
+                </article>
+
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1529042410759-befb1204b468?auto=format&fit=crop&w=900&q=80" alt="Beef short rib plated elegantly with naan" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>Badshahi Beef Short Rib</h3>
+                      <span>Rs. 4,950</span>
+                    </div>
+                    <p>Eight-hour braised beef short rib glazed with a rich reduction of roasted spices, served with smoked garlic naan.</p>
+                  </div>
+                </article>
+
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=900&q=80" alt="Grand Pakistani meat platter for sharing" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>Sultan's Mutton Platter</h3>
+                      <span>Rs. 6,950</span>
+                    </div>
+                    <p>A grand selection of mutton chops, seekh kabab, boti and slow-braised shank, served with three signature chutneys. Ideal for 2–3 guests.</p>
+                  </div>
+                </article>
+
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80" alt="Lamb biryani served in a traditional pot" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>Royal Lamb Shank Biryani</h3>
+                      <span>Rs. 4,500</span>
+                    </div>
+                    <p>Fragrant aged basmati layered with saffron, caramelized onions and tender lamb shank, sealed and slow-cooked in traditional dum style.</p>
+                  </div>
+                </article>
+              </div>
+
+              <div class="menu-panel" data-panel="biryani-rice">
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80" alt="Premium Pakistani mutton biryani" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>24-Month Aged Basmati Mutton Biryani</h3>
+                      <span>Rs. 2,450</span>
+                    </div>
+                    <p>Long-grain aged basmati layered with tender mutton, saffron, fried onions, mint and whole spices.</p>
+                  </div>
+                </article>
+
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80" alt="Luxury lamb biryani with saffron and herbs" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>Lamb Shank Dum Biryani</h3>
+                      <span>Rs. 3,250</span>
+                    </div>
+                    <p>Slow-cooked lamb shank buried beneath saffron-scented basmati and finished with crispy onions and rose water.</p>
+                  </div>
+                </article>
+
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1604908556852-6b5048f4f9ca?auto=format&fit=crop&w=900&q=80" alt="Elegant beef pulao in a stylish presentation" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>Nawabi Beef Pulao</h3>
+                      <span>Rs. 2,150</span>
+                    </div>
+                    <p>Fragrant basmati rice cooked in a rich beef stock with tender beef, caramelized onions and whole aromatic spices.</p>
+                  </div>
+                </article>
+
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1604908556852-6b5048f4f9ca?auto=format&fit=crop&w=900&q=80" alt="Premium saffron rice with truffle aroma" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>Saffron &amp; Truffle Pulao</h3>
+                      <span>Rs. 1,950</span>
+                    </div>
+                    <p>A luxurious aromatic rice preparation with saffron, truffle essence, toasted nuts and caramelized onions.</p>
+                  </div>
+                </article>
+              </div>
+
+              <div class="menu-panel" data-panel="artisan-tandoor">
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80" alt="Beautiful Pakistani sheermal bread fresh from the tandoor" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>Saffron Sheermal</h3>
+                      <span>Rs. 650</span>
+                    </div>
+                    <p>Soft traditional bread enriched with saffron, milk and a touch of sweetness.</p>
+                  </div>
+                </article>
+
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80" alt="Garlic naan with truffle and herbs" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>Truffle Garlic Naan</h3>
+                      <span>Rs. 950</span>
+                    </div>
+                    <p>Charred naan brushed with garlic butter and finished with black truffle and fresh herbs.</p>
+                  </div>
+                </article>
+
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80" alt="Pistachio and cheese naan from the tandoor" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>Pistachio &amp; Cheese Naan</h3>
+                      <span>Rs. 850</span>
+                    </div>
+                    <p>Tandoor-baked naan stuffed with creamy cheese and pistachio, finished with honey butter.</p>
+                  </div>
+                </article>
+
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80" alt="Fresh khameeri roti with charred crust" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>Royal Khameeri Roti</h3>
+                      <span>Rs. 450</span>
+                    </div>
+                    <p>Naturally fermented traditional bread with a soft interior and beautifully charred crust.</p>
+                  </div>
+                </article>
+              </div>
+
+              <div class="menu-panel" data-panel="signature-sides">
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80" alt="Smoked burani raita in a bowl" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>Smoked Burani Raita</h3>
+                      <span>Rs. 650</span>
+                    </div>
+                    <p>Thick yogurt infused with roasted garlic, smoked chilli and fresh mint.</p>
+                  </div>
+                </article>
+
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80" alt="Saffron mirchi salad with cucumber and herbs" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>Saffron Mirchi Salad</h3>
+                      <span>Rs. 550</span>
+                    </div>
+                    <p>Fresh chillies, cucumber, onion and herbs with saffron-lemon dressing.</p>
+                  </div>
+                </article>
+
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80" alt="Charcoal grilled vegetables in a premium dish" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>Charcoal-Grilled Vegetables</h3>
+                      <span>Rs. 850</span>
+                    </div>
+                    <p>Seasonal vegetables grilled over coal and finished with herb butter.</p>
+                  </div>
+                </article>
+              </div>
+
+              <div class="menu-panel" data-panel="royal-desserts">
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=900&q=80" alt="Premium shahi tukray dessert with pistachio and saffron" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>Saffron Shahi Tukray</h3>
+                      <span>Rs. 1,150</span>
+                    </div>
+                    <p>Crisp caramelized bread layered with saffron rabri, pistachio and edible rose petals.</p>
+                  </div>
+                </article>
+
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=900&q=80" alt="Luxury gulab jamun topped with saffron ice cream and gold leaf" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>24K Gold Gulab Jamun</h3>
+                      <span>Rs. 1,350</span>
+                    </div>
+                    <p>Warm handmade gulab jamun filled with pistachio cream, served with saffron ice cream and delicate gold leaf.</p>
+                  </div>
+                </article>
+
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=900&q=80" alt="Traditional pistachio kulfi arranged elegantly" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>Pistachio Kulfi Royale</h3>
+                      <span>Rs. 950</span>
+                    </div>
+                    <p>Traditional slow-churned pistachio kulfi with cardamom, rose and crushed pistachios.</p>
+                  </div>
+                </article>
+
+                <article class="menu-card reveal">
+                  <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=900&q=80" alt="Royal rabri falooda with pistachio and ice cream" loading="lazy" />
+                  <div class="menu-card-body">
+                    <div class="menu-title-row">
+                      <h3>Royal Rabri Falooda</h3>
+                      <span>Rs. 1,250</span>
+                    </div>
+                    <p>House-made rabri, rose falooda, basil seeds, vanilla ice cream and pistachio.</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="specialties section-spacing" id="specialties">
+          <div class="container">
+            <div class="specialties-banner reveal">
+              <div class="specialties-overlay"></div>
+              <div class="specialty-content">
+                <p class="section-label alt">Signature Feast</p>
+                <h2>ROYAL FEAST FOR TWO</h2>
+                <div class="specialty-price">Rs. 11,500</div>
+                <p>
+                  A curated luxury experience featuring Smoked Beef Galouti, Royal Lamb Chops,
+                  Nawabi Mutton Karahi, Lamb Shank Dum Biryani, Truffle Garlic Naan, Smoked Burani
+                  Raita and Saffron Shahi Tukray.
+                </p>
+                <div class="hero-actions specialty-actions">
+                  <a href="#reservation" class="btn btn-primary">Reserve Your Table</a>
+                  <a href="#menu" class="btn btn-secondary">View Full Menu</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="gallery section-spacing" id="gallery">
+          <div class="container">
+            <div class="section-heading reveal">
+              <p class="section-label">Gallery</p>
+              <h2>Moments from our royal table.</h2>
+            </div>
+
+            <div class="gallery-grid">
+              <figure class="gallery-item reveal">
+                <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=900&q=80" alt="Pakistani biryani served in a luxurious presentation" loading="lazy" />
+              </figure>
+              <figure class="gallery-item reveal">
+                <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80" alt="Pakistani mutton karahi in a traditional karahi pan" loading="lazy" />
+              </figure>
+              <figure class="gallery-item reveal">
+                <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80" alt="Beef nihari served in a bowl with naan" loading="lazy" />
+              </figure>
+              <figure class="gallery-item reveal">
+                <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=900&q=80" alt="Luxury grilled lamb chops" loading="lazy" />
+              </figure>
+              <figure class="gallery-item reveal">
+                <img src="https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=900&q=80" alt="Seekh kebab served with roasted herbs" loading="lazy" />
+              </figure>
+              <figure class="gallery-item reveal">
+                <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80" alt="Fresh naan coming from a tandoor" loading="lazy" />
+              </figure>
+              <figure class="gallery-item reveal">
+                <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80" alt="Traditional Pakistani tea served with hospitality" loading="lazy" />
+              </figure>
+              <figure class="gallery-item reveal">
+                <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=80" alt="Luxury restaurant interior with elegant Pakistani ambience" loading="lazy" />
+              </figure>
+              <figure class="gallery-item reveal">
+                <img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=900&q=80" alt="Pakistani spices and ingredients prepared for culinary excellence" loading="lazy" />
+              </figure>
+              <figure class="gallery-item reveal">
+                <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80" alt="Elegant food plating in a premium restaurant" loading="lazy" />
+              </figure>
+            </div>
+          </div>
+        </section>
+
+        <section class="benefits section-spacing" id="benefits">
+          <div class="container">
+            <div class="section-heading reveal">
+              <p class="section-label">Why Choose Us</p>
+              <h2>Crafted for memorable dining moments.</h2>
+            </div>
+
+            <div class="benefit-grid">
+              <article class="benefit-card reveal">
+                <div class="benefit-icon">✦</div>
+                <h3>Authentic Flavours</h3>
+                <p>Traditional Pakistani recipes prepared with carefully selected spices.</p>
+              </article>
+
+              <article class="benefit-card reveal">
+                <div class="benefit-icon">✦</div>
+                <h3>Premium Ingredients</h3>
+                <p>High-quality beef, lamb, mutton and fresh local ingredients.</p>
+              </article>
+
+              <article class="benefit-card reveal">
+                <div class="benefit-icon">✦</div>
+                <h3>Traditional Fire Cooking</h3>
+                <p>Selected dishes prepared over charcoal and in traditional tandoors.</p>
+              </article>
+
+              <article class="benefit-card reveal">
+                <div class="benefit-icon">✦</div>
+                <h3>Fine Dining Experience</h3>
+                <p>A sophisticated atmosphere combining Pakistani heritage with contemporary hospitality.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="reservation section-spacing" id="reservation">
+          <div class="container reservation-wrap">
+            <div class="reservation-copy reveal">
+              <p class="section-label">Reservation</p>
+              <h2>Reserve your table for an unforgettable evening.</h2>
+              <p>
+                Whether it's an intimate dinner, family celebration or a special gathering,
+                our team will ensure every detail reflects the warmth and grandeur of Pakistani hospitality.
+              </p>
+            </div>
+
+            <form class="reservation-form reveal" id="reservationForm" novalidate>
+              <div class="form-grid">
+                <label>
+                  <span>Full Name</span>
+                  <input type="text" name="fullName" id="fullName" placeholder="Your full name" required />
+                </label>
+                <label>
+                  <span>Phone Number</span>
+                  <input type="tel" name="phone" id="phone" placeholder="03XX-XXXXXXX" required />
+                </label>
+                <label>
+                  <span>Email</span>
+                  <input type="email" name="email" id="email" placeholder="you@example.com" required />
+                </label>
+                <label>
+                  <span>Date</span>
+                  <input type="date" name="date" id="date" required />
+                </label>
+                <label>
+                  <span>Time</span>
+                  <input type="time" name="time" id="time" required />
+                </label>
+                <label>
+                  <span>Number of Guests</span>
+                  <input type="number" name="guests" id="guests" min="1" max="20" value="2" required />
+                </label>
+                <label class="full-width">
+                  <span>Special Request</span>
+                  <textarea name="request" id="request" rows="4" placeholder="Any special occasion or seating preference?"></textarea>
+                </label>
+              </div>
+
+              <div class="form-actions">
+                <button type="submit" class="btn btn-primary">Reserve Table</button>
+                <p class="form-success" id="formSuccess" aria-live="polite"></p>
+              </div>
+            </form>
+          </div>
+        </section>
+
+        <section class="contact section-spacing" id="contact">
+          <div class="container contact-wrap">
+            <div class="contact-card reveal">
+              <p class="section-label">Visit Us</p>
+              <h2>THE ROYAL MEHFIL</h2>
+              <p>Traditional Pakistani Fine Dining</p>
+
+              <div class="contact-info">
+                <div>
+                  <h3>Opening Hours</h3>
+                  <p>Monday – Thursday: 12:00 PM – 11:30 PM</p>
+                  <p>Friday – Sunday: 12:00 PM – 12:30 AM</p>
+                </div>
+                <div>
+                  <h3>Phone</h3>
+                  <p>+92 300 1234567</p>
+                </div>
+                <div>
+                  <h3>Email</h3>
+                  <p>reservations@royalmehfil.com</p>
+                </div>
+                <div>
+                  <h3>Address</h3>
+                  <p>12 Gulshan Avenue, Lahore, Pakistan</p>
+                </div>
+              </div>
+
+              <div class="socials" aria-label="Social media links">
+                <a href="#" aria-label="Instagram">◎</a>
+                <a href="#" aria-label="Facebook">◌</a>
+                <a href="#" aria-label="X">✕</a>
+                <a href="#" aria-label="YouTube">▶</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-grid">
+          <div>
+            <div class="brand footer-brand">
+              <span class="brand-mark">RM</span>
+              <div>
+                <strong>THE ROYAL MEHFIL</strong>
+                <small>Traditional Pakistani Fine Dining</small>
+              </div>
+            </div>
+            <p>
+              A refined celebration of Pakistan's heritage, aromas and hospitality in a contemporary luxury setting.
+            </p>
+          </div>
+
+          <div>
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#story">Our Story</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Opening Hours</h3>
+            <ul class="footer-links">
+              <li>Mon – Thu: 12:00 PM – 11:30 PM</li>
+              <li>Fri – Sun: 12:00 PM – 12:30 AM</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Follow Us</h3>
+            <div class="socials footer-socials" aria-label="Social links">
+              <a href="#" aria-label="Instagram">◎</a>
+              <a href="#" aria-label="Facebook">◌</a>
+              <a href="#" aria-label="X">✕</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="container">
+            <p>© <span id="year"></span> The Royal Mehfil. All Rights Reserved.</p>
+          </div>
+        </div>
+      </footer>
+
+      <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+    </div>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <button class="lightbox-close" type="button" aria-label="Close image preview">×</button>
+      <img src="" alt="Expanded gallery view" id="lightboxImage" />
+    </div>
+
+    <script src="khana.js"></script>
+  </body>
+</html>
